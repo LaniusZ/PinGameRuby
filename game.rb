@@ -1,4 +1,5 @@
 class Game
+    @@points
     def initialize()
     end
 
