@@ -42,5 +42,9 @@ describe Game do
     it "Game 5 first pitch" do
         expect(game.roll(10)).to eq(10)
     end
+    
+    it "Game 6 first pitch" do
+        expect(game.roll(0)).to eq(0)
+    end
 
 end
