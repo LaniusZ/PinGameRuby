@@ -100,6 +100,9 @@ describe Game do
     it "Game 9 first pitch" do
         expect(game.roll(10)).to eq(10)
     end
+    it "Game 9 add bonus" do
+        expect(game.roll(10)).to eq(10)
+    end
     it "Game 9 Total" do
         expect(game.score()).to eq(117)
     end
