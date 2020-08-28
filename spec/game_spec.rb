@@ -107,4 +107,8 @@ describe Game do
         expect(game.score()).to eq(117)
     end
 
+    it "Game 10 first pitch" do
+        expect(game.roll(2)).to eq(2)
+    end
+
 end
