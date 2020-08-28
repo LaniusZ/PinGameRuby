@@ -5,6 +5,8 @@ class Game
     end
 
     def roll(pins)
+        @@points += pins
+        return pins
     end
 
     def score()
