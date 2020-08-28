@@ -63,4 +63,7 @@ describe Game do
     it "Game 8 first pitch" do
         expect(game.roll(6)).to eq(6)
     end
+    it "Game 8 second pitch" do
+        expect(game.roll(4)).to eq(4)
+    end
 end
