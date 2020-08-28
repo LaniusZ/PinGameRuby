@@ -116,5 +116,8 @@ describe Game do
     it "Game 10 third pitch" do
         expect(game.roll(6)).to eq(6)
     end
+    it "Game 10 Total" do
+        expect(game.score()).to eq(133)
+    end
 
 end
