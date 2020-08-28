@@ -67,9 +67,14 @@ describe Game do
         expect(game.roll(4)).to eq(4)
     end
     it "Game 8 add bonus" do
-        expect(game.roll(5)).to eq(5)
+        expect(game.roll(6)).to eq(6)
     end
     it "Game 8 add bonus" do
         expect(game.roll(5)).to eq(5)
     end
+
+    it "Game 9 first pitch" do
+        expect(game.roll(10)).to eq(10)
+    end
+
 end
