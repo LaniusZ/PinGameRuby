@@ -52,7 +52,10 @@ describe Game do
     end
     
     it "Game 5 first pitch" do
-        expect(game.roll(10)).to eq(10)
+        expect(game.roll(11)).to eq(11)
+    end
+    it "Game 5 Total" do
+        expect(game.score()).to eq(60)
     end
     
     it "Game 6 first pitch" do
