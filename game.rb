@@ -10,5 +10,6 @@ class Game
     end
 
     def score()
+        return @@points
     end
 end
